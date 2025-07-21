@@ -1,4 +1,4 @@
-from tasks_tracker.tasks.models.tasks_model import MyTask
+from tasks.models.tasks_model import MyTask
 from django.db import connection
 
 

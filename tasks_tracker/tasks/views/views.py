@@ -1,7 +1,7 @@
 import json
 from django.views.decorators.csrf import csrf_exempt
 from django.http import JsonResponse
-from tasks.services.task_service import TaskService
+from services.task_service import TaskService
 
 
 @csrf_exempt

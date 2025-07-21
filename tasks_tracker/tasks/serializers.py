@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from tasks_tracker.tasks.models.tasks_model import MyTask
+from tasks.models.tasks_model import MyTask
 
 class TaskSerializer(serializers.ModelSerializer):
     class Meta:

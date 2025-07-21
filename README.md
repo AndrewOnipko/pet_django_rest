@@ -66,3 +66,19 @@ tasks_tracker/
 DJANGO_SUPERUSER_USERNAME=some_name
 DJANGO_SUPERUSER_PASSWORD=some_pass
 ```
+
+## Команды для запуска
+
+```bash
+# В директории проекта:
+npm run dev
+
+# Активировать Pyton в Django (допустим если работаете не напрямую в контейнере)
+docker exec -it django bash
+
+# Создать миграции
+python manage.py makemigrations
+
+# Провести миграции
+python manage.py migrate
+```
