@@ -1,0 +1,97 @@
+body {
+  font-family: sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+input {
+  padding: 0.6rem;
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.6rem;
+  background: #4caf50;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  border-bottom: 1px solid #eee;
+  padding: 0.5rem 0;
+}
+
+
+.task-card {
+  background: #f9f9f9;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.task-card h3 {
+  margin: 0 0 0.5rem;
+}
+
+.task-card p {
+  margin: 0 0 1rem;
+}
+
+.status {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.status.completed {
+  color: #4caf50;
+}
+
+.status.cancelled {
+  color: #e74c3c;
+}
+
+.status.pending {
+  color: #ff9800;
+}
+
+.actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.actions button {
+  flex: 1;
+}
+
+.cancel {
+  background: #e74c3c;
+}
+
+.cancel:hover {
+  background: #c0392b;
+}
